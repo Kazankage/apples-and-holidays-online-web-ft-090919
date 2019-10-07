@@ -74,9 +74,7 @@ end
 def bbq_days(hash)
   hash.map do |season, holiday|
     holiday.map do |holiday, supply|
-      if supply == "BBQ"
-       print holiday
-      end
+      holiday
     end
     end
 end
@@ -97,5 +95,5 @@ end
   }
 }
 =end
-puts bbq_days(holiday_supplies)
+print bbq_days(holiday_supplies)
 
