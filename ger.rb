@@ -73,7 +73,9 @@ end
 
 def bbq_days(hash)
   hash.map do |season, holiday|
-    holiday
+    holiday.map do |holiday, supply|
+      holiday
+    end
     end
 end
 
