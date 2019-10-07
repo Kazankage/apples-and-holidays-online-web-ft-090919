@@ -93,5 +93,5 @@ end
   }
 }
 =end
-puts bbq_days(holiday_supplies)
+bbq_days(holiday_supplies)
 
