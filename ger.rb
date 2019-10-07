@@ -96,5 +96,5 @@ holiday_supplies = {
   }
 }
 =end
-puts bbq_days(holiday_supplies)
+print bbq_days(holiday_supplies)
 
