@@ -73,7 +73,7 @@ end
 
 def bbq_days(hash)
   hash.each do |season, holiday|
-    puts holiday
+    holiday
     end
 end
 
@@ -93,5 +93,5 @@ end
   }
 }
 =end
-bbq_days(holiday_supplies)
+puts bbq_days(holiday_supplies)
 
