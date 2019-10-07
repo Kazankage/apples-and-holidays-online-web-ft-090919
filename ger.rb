@@ -59,7 +59,7 @@ def all_supplies_in_holidays(hash)
   return
 end
 
-puts all_supplies_in_holidays(holiday_supplies)
+#puts all_supplies_in_holidays(holiday_supplies)
 
 #Winter:
 #  Christmas: Lights, Wreath
@@ -71,9 +71,27 @@ puts all_supplies_in_holidays(holiday_supplies)
 #Spring:
 #  Memorial Day: BBQ
 
+def bbq_days(hash)
+  hash.each do |season, holiday|
+    puts holiday
+    end
+end
 
-
-
-
-
+=begin holiday_supplies = {
+  :winter => {
+    :christmas => ["Lights", "Wreath"],
+    :new_years => ["Party Hats"]
+  },
+  :summer => {
+    :fourth_of_july => ["Fireworks", "BBQ"]
+  },
+  :fall => {
+    :thanksgiving => ["Turkey"]
+  },
+  :spring => {
+    :memorial_day => ["BBQ"]
+  }
+}
+=end
+bbq_days(holiday_supplies)
 
