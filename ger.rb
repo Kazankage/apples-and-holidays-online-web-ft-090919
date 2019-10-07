@@ -74,7 +74,7 @@ end
 def bbq_days(hash)
   hash.map do |season, holiday|
     holiday.map do |day, supply|
-      day if supply.include?("BBQ")
+      day.flatten.compact if supply.include?("BBQ")
     end
     end
 end
