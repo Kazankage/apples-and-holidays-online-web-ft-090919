@@ -73,11 +73,12 @@ end
 
 def bbq_days(hash)
   hash.map do |season, holiday|
-     "#{season} #{holiday}"
+    holiday.map do |
     end
 end
 
-=begin holiday_supplies = {
+=begin 
+holiday_supplies = {
   :winter => {
     :christmas => ["Lights", "Wreath"],
     :new_years => ["Party Hats"]
