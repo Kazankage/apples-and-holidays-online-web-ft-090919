@@ -76,7 +76,7 @@ def bbq_days(hash)
     holiday.map do |day, supply|
       day if supply.include?("BBQ")
     end
-    end
+    end.flatten
 end
 
 =begin 
