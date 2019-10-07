@@ -72,8 +72,7 @@ end
 #  Memorial Day: BBQ
 
 def bbq_days(hash)
-  hash.map do |season, holiday|
-    holiday
+  hash.each do |season, holiday|
     end
 end
 
