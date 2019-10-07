@@ -76,6 +76,7 @@ def bbq_days(hash)
     holiday.map do |holiday, supply|
       if supply == "BBQ"
         holiday
+      end
     end
     end
 end
